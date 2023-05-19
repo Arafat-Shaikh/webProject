@@ -7,6 +7,7 @@ for(let i=0; i<row; i++){
         board[i].push(j+1)
     }
 }
+//This code is for printing the table
 for(let i=0; i<row; i++){
     let boardRow = "";
     for(let j=0; j<col; j++){
