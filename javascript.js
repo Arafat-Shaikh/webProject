@@ -18,3 +18,10 @@ for(let i=0; i<row; i++){
     }
     console.log(boardRow);
 }
+for(let i=0; i<row; i++){
+	for(let j=0; j<col; j++){
+		if(board[i][j] % 2 == 0){
+			console.log(i,j)
+		}
+	}
+}
